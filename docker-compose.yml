@@ -1,0 +1,13 @@
+services:
+  site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: artifex-linktree
+    restart: unless-stopped
+    ports:
+      - "6080:3000"
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3000
+
