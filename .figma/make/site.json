@@ -1,0 +1,14 @@
+{
+  "title": "ArtifexTech | Automação e IA",
+  "description": "Automação, inteligência artificial e chatbot para atendimento. CRM, IA e soluções que fazem sua empresa crescer.",
+  "robots": {
+    "index": true
+  },
+  "icons": {
+    "icon": "/Logo.svg"
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
